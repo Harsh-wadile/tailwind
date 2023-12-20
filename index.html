@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    //   colors: {
+                    //     clifford: '#da373d',
+                    //   }
+                }
+            }
+        }
+    </script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <nav class=" flex justify-between h-8 items-center">
+        <div class="text-[11px] px-2">TailwindLOGO</div>
+        <div class="px-2">
+            <a href="#" class="text-[11px] px-1">Home</a>
+            <a href="#" class="text-[11px] px-1">About</a>
+            <a href="#" class="text-[11px] px-1">Blog</a>
+            <a href="#" class="text-[11px] px-1">Contact</a>
+            <a href="#" class="text-[11px] px-1 bg-green-600 py-0.5 text-white rounded hover:bg-green-800">Login</a>
+        </div>
+    </nav>
+
+    <header class="flex justify-between items-center">
+        <div class="pl-8 w-2/4">
+            <h1 class="text-1xl py-2">Welcome to
+                <span class="text-green-600 font-bold"> Tailwind CSS </span>Website
+            </h1>
+
+            <p class="text-[8px]">
+                I’ve written a few thousand words
+                on why traditional “semantic class names” are the reason
+                CSS is hard to maintain, but the truth is you’re never going
+            </p>
+
+            <div class="flex py-2">
+                <button class="bg-green-600 px-1 h-5 text-[8px] text-white rounded">Subscribe</button>
+                <button class="bg-gray-300 px-1 h-5 ml-3 text-[8px] rounded">Connect with us!</button>
+
+            </div>
+            <!-- <button class="bg-green-600 px-1 text-sm text-white rounded">Subscribe</button>
+            <button class="bg-gray-300 px-2 py-2 mt-4 ml-4 rounded">Connect with us!</button> -->
+            <br>
+            <!-- <img src="images\img4.png" width="100" class="mt-4"> -->
+        </div>
+
+        <div class="w-3/5">
+            <img src="images\img4.png">
+        </div>
+
+    </header>
+
+</body>
+
+</html>
